@@ -230,3 +230,66 @@
     height: 4em;
     transform: rotateX(-90deg) translateZ(10em);
 }
+
+.hand {
+    width: 3em;
+    height: 15em;
+    top: 0em;
+    left: 0;
+    right: 0; 
+    margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-1.8em);
+}
+.hand > div {
+    width: 3em;
+    height: 6em;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.hand > div > div {
+    width: 100%;
+    height: 100%;
+    background-color: #535cdf;
+    border: 2px solid #000;
+    position: absolute;
+    margin: auto;
+}
+
+.right.hand {
+    transform: translateX(6.5em) translateY(-27em) translateZ(-1.8em);
+}
+
+.left.hand {
+    transform: translateX(-6.5em) translateY(-12em) translateZ(-1.8em);
+}
+
+.shoulder > .before, .forearm > .before{
+    transform: translateZ(1.5em);
+}
+
+.shoulder > .back, .forearm > .back {
+    transform: rotateY(180deg) translateZ(1.5em);
+}
+
+.shoulder > .right, .forearm > .right {
+    transform: rotateY(90deg) translateZ(1.5em);
+}
+
+.shoulder > .left, .forearm > .left {
+    transform: rotateY(-90deg) translateZ(1.5em);
+}
+
+.shoulder > .top, .forearm > .top {
+    width: 3em;
+    height: 3em;
+    transform: rotateX(90deg) translateZ(1.5em);
+}
+
+.shoulder > .bottom, .forearm > .bottom {
+    width: 3em;
+    height: 3em;
+    transform: rotateX(-90deg) translateZ(4.5em);
+}
