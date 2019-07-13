@@ -124,8 +124,9 @@
 .neck > div {
     width: 100%;
     height: 100%;
-    background-color: rgb(83, 92, 223);
+    background-color: #535cdf;
     border: 2px solid #000;
+    border-bottom: none;
     position: absolute;
     margin: auto;
 }
@@ -144,4 +145,88 @@
 
 .neck > .left {
     transform: rotateY(-90deg) translateZ(2em);
+}
+
+.torso {
+    width: 10em;
+    height: 12em;
+    top: 0em;
+    left: 0;
+    right: 0; 
+    margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-1.8em);
+}
+
+.torso > div {
+    width: 100%;
+    height: 100%;
+    background-color: #535cdf;
+    border: 2px solid #000;
+    position: absolute;
+    margin: auto;
+}
+
+.torso > .left-before {
+    border-right: none;
+    width: 3.2em;
+    transform: translateZ(2em);
+}
+
+.torso > .before {
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 4em;
+    transform: translateZ(2em) translateX(3em);
+}
+
+.torso > .right-before {
+    border-left: none;
+    width: 3.2em;
+    transform: translateZ(2em) translateX(6.8em);
+}
+
+.torso > .left-back {
+    border-right: none;
+    width: 3.2em;
+    transform: rotateY(180deg) translateZ(2em) translateX(-6.8em);
+}
+
+.torso > .back {
+    border: none;
+    width: 4em;
+    border-bottom: 2px solid #000;
+    transform: rotateY(180deg) translateZ(2em) translateX(-3em);
+}
+
+.torso > .right-back {
+    border-left: none;
+    width: 3.2em;
+    transform: rotateY(180deg) translateZ(2em);
+}
+
+.torso > .right {
+    width: 4em;
+    transform: rotateY(90deg) translateZ(8em);
+}
+
+.torso > .left {
+    width: 4em;
+    transform: rotateY(-90deg) translateZ(2em);
+}
+
+.torso > .top {
+    border: none;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    width: 10em;
+    height: 4em;
+    transform: rotateX(90deg) translateZ(2em);
+}
+
+.torso > .bottom {
+    width: 10em;
+    height: 4em;
+    transform: rotateX(-90deg) translateZ(10em);
 }
