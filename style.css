@@ -293,3 +293,40 @@
     height: 3em;
     transform: rotateX(-90deg) translateZ(4.5em);
 }
+
+.wrist {
+    transform: rotateY(90deg);
+}
+
+.wrist > div {
+    height: 3em !important;
+    background-color: #f4ff94 !important; 
+}
+
+.wrist > .before {
+    transform: translateZ(0.75em);
+}
+
+.wrist > .back {
+    transform: rotateY(180deg) translateZ(0.75em);
+}
+
+.wrist > .right {
+    width: 1.5em;
+    transform: rotateY(90deg) translateZ(2.2em);
+}
+
+.wrist > .left {
+    width: 1.5em;
+    transform: rotateY(-90deg) translateZ(.8em);
+}
+
+.wrist > .top {
+    height: 1.5em !important;
+    transform: rotateX(90deg) translateZ(.8em);
+}
+
+.wrist > .bottom {
+    height: 1.5em !important;
+    transform: rotateX(-90deg) translateZ(2.2em);
+}
