@@ -33,8 +33,8 @@
     width: 10em;
     height: 10em;
     top: 3em;
-    left: 0;
-    right: 0; 
+    /* left: 0;
+    right: 0;  */
     margin: auto;
     position: relative;
     transform-style: preserve-3d;
@@ -112,9 +112,9 @@
     align-items: flex-end;
     width: 4em;
     height: 6.5em;
-    top: 0;
+    /* top: 0;
     left: 0;
-    right: 0; 
+    right: 0;  */
     margin: auto;
     position: relative; 
     transform-style: preserve-3d;
@@ -150,9 +150,9 @@
 .torso {
     width: 10em;
     height: 12em;
-    top: 0em;
+    /* top: 0em;
     left: 0;
-    right: 0; 
+    right: 0;  */
     margin: auto;
     position: relative;
     transform-style: preserve-3d;
@@ -234,9 +234,9 @@
 .hand {
     width: 3em;
     height: 15em;
-    top: 0em;
+    /* top: 0em;
     left: 0;
-    right: 0; 
+    right: 0;  */
     margin: auto;
     position: relative;
     transform-style: preserve-3d;
@@ -329,4 +329,48 @@
 .wrist > .bottom {
     height: 1.5em !important;
     transform: rotateX(-90deg) translateZ(2.2em);
+}
+
+.ass {
+    width: 10em;
+    height: 3em;
+    margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-1.8em) translateY(-30em);
+}
+
+.ass > div {
+    width: 100%;
+    height: 100%;
+    background-color: #9c3c2b;
+    border: 2px solid #000;
+    position: absolute;
+    margin: auto;
+}
+
+.ass > .before {
+    transform: translateZ(1.5em);
+}
+
+.ass > .back {
+    transform: rotateY(180deg) translateZ(1.5em);
+}
+
+.ass > .right {
+    width: 3em;
+    transform: rotateY(90deg) translateZ(8.5em);
+}
+
+.ass > .left {
+    width: 3em;
+    transform: rotateY(-90deg) translateZ(1.5em);
+}
+
+.ass > .top {
+    transform: rotateX(90deg) translateZ(1.5em);
+}
+
+.ass > .bottom {
+    transform: rotateX(-90deg) translateZ(1.5em);
 }
