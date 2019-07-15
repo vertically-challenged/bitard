@@ -1,5 +1,5 @@
 (function () {
-	var rotateY = -20,
+	var rotateY = -45,
 		  rotateX = 0;
 
 	document.onkeydown = function (e) {

@@ -6,7 +6,12 @@
 }
 
 :root {
-    font-size: calc(1em - 6px); 
+    font-size: calc(1em - 6px);   
+    overflow: hidden;
+}
+
+.body {
+  
 }
 
 .Bitard-box {
@@ -15,10 +20,10 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    transform: perspective(10em);
     backface-visibility: hidden;
     position: relative;
-    padding-top: 10%;
+    padding-top: 5%;
+    perspective: 600px;
 }
 
 .Bitard {
@@ -26,7 +31,7 @@
     height: 50%;
     position: relative;
     transform-style: preserve-3d;
-    transform: rotateY(-20deg);
+    transform: rotateY(-45deg);
 }
 
 .head {
@@ -470,5 +475,5 @@ a:hover {
 .control {
     color: #554688;
     font-size: 2em;
-    margin-top: 10em;
+    margin-top: 12em;
 }
