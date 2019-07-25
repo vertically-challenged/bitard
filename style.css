@@ -10,10 +10,6 @@
     overflow: hidden;
 }
 
-.body {
-  
-}
-
 .Bitard-box {
     display: flex;
     flex-direction: column;
