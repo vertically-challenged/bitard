@@ -8,10 +8,17 @@
 :root {
     font-size: calc(1em - 6px);   
     overflow: hidden;
+
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;   
 }
 
 .body {
-  
+  background-color: #EEEEEE;
 }
 
 .Bitard-box {
@@ -24,6 +31,7 @@
     position: relative;
     padding-top: 5%;
     perspective: 600px;
+    background-color: #EEEEEE;
 }
 
 .Bitard {
@@ -476,4 +484,5 @@ a:hover {
     color: #554688;
     font-size: 2em;
     margin-top: 12em;
+    cursor: default;           
 }
